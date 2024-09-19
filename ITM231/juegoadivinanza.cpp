@@ -19,6 +19,7 @@ while (no_acerto){
 
 		if(acerto){
 			cout << "Felicitaciones!!! ... adivino el numero secreto"<<endl;
+			no_acerto = false;
 		}
 
 		else if(mayor){
