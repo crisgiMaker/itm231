@@ -6,7 +6,7 @@ cout <<"*                Bienvenido al Juego de la Adivinanza               *"<<
 cout <<"*********************************************************************"<<endl;
 
 const int NUMERO_SECRETO = 42;
-int adivina
+int adivina;
 
 cout << "¿ cual es el numero secreto?";
 cin >> adivina;
