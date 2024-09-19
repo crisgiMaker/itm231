@@ -23,7 +23,7 @@ bool mayor = adivina > NUMERO_SECRETO;
 		cout << "Elnumero ingresado es mayor que el numero secreto"<<endl;
 	}
 	else{
-		"El numero ingresado es mayor que el numero secreto"<<endl;
+		cout << "El numero ingresado es mayor que el numero secreto"<<endl;
 	}
 }
 
