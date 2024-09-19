@@ -8,12 +8,12 @@ cout <<"*********************************************************************"<<
 const int NUMERO_SECRETO = 42;
 int adivina
 
-bool acerto = adivina == NUMERO_SECRETO;
-bool mayor = adivina > NUMERO_SECRETO;
-
 cout << "¿ cual es el numero secreto?";
 cin >> adivina;
 cout <<"Elvalor de su numero es;  " << adivina  <<endl;
+
+bool acerto = adivina == NUMERO_SECRETO;
+bool mayor = adivina > NUMERO_SECRETO;
 
 	if(acerto){
 		cout << "Felicitaciones!!! ... adivino el numero secreto"<<endl;
