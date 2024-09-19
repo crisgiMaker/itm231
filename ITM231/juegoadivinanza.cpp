@@ -5,7 +5,30 @@ cout <<"*********************************************************************"<<
 cout <<"*                Bienvenido al Juego de la Adivinanza               *"<<endl;
 cout <<"*********************************************************************"<<endl;
 
-int numero_secreto = 42;
+const int NUMERO_SECRETO = 42;
+int adivina
+
+bool acerto = adivina == NUMERO_SECRETO;
+bool mayor = adivina > NUMERO_SECRETO;
+
+cout << "¿ cual es el numero secreto?";
+cin >> adivina;
+cout <<"Elvalor de su numero es;  " << adivina  <<endl;
+
+	if(acerto){
+		cout << "Felicitaciones!!! ... adivino el numero secreto"<<endl;
+	}
+
+	else if(mayor){
+		cout << "Elnumero ingresado es mayor que el numero secreto"<<endl;
+	}
+	else{
+		"El numero ingresado es mayor que el numero secreto"<<endl;
+	}
+}
+
+
+/*int numero_secreto = 42;
 cout <<"El numero secreto es ..." <<numero_secreto <<  " No lo diga a nadie! "<<endl;
 
 int adivina;
@@ -24,5 +47,5 @@ if (adivina == numero_secreto){
 	else{
 	cout <<"El numero ingresado es menor que el numero secreto"<<endl;
 	}
-}
+}*/
 
