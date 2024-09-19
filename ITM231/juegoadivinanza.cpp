@@ -8,24 +8,28 @@ cout <<"*********************************************************************"<<
 const int NUMERO_SECRETO = 42;
 int adivina;
 
-cout << "¿ cual es el numero secreto?";
-cin >> adivina;
-cout <<"Elvalor de su numero es;  " << adivina  <<endl;
+bool no_acerto = true;
+while (no_acerto){
+	cout << "¿ cual es el numero secreto?";
+	cin >> adivina;
+	cout <<"Elvalor de su numero es;  " << adivina  <<endl;
 
-bool acerto = adivina == NUMERO_SECRETO;
-bool mayor = adivina > NUMERO_SECRETO;
+	bool acerto = adivina == NUMERO_SECRETO;
+	bool mayor = adivina > NUMERO_SECRETO;
 
-	if(acerto){
-		cout << "Felicitaciones!!! ... adivino el numero secreto"<<endl;
-	}
+		if(acerto){
+			cout << "Felicitaciones!!! ... adivino el numero secreto"<<endl;
+		}
 
-	else if(mayor){
+		else if(mayor){
 		cout << "Elnumero ingresado es mayor que el numero secreto"<<endl;
-	}
-	else{
-		cout << "El numero ingresado es mayor que el numero secreto"<<endl;
+		}
+		else{
+			cout << "El numero ingresado es mayor que el numero secreto"<<endl;
+		}
 	}
 }
+
 
 
 /*int numero_secreto = 42;
