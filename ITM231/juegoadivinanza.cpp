@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	cout <<"******************************************************************************"<<endl;
 	cout <<"*                    Bienvenido al Juego de la Adivinanza                    *"<<endl;
-	cout <<"*****************************************************************************"<<endl;
+	cout <<"******************************************************************************"<<endl;
     cout <<endl;
 	cout <<endl;
     cout << "Ingrese un numero en el rango: 1 a 100*" << endl;
@@ -37,6 +37,7 @@ int main() {
     cout << "Numero secreto aleatorio entre 1 y 100: " << NUMERO_SECRETO << endl;
 
     int adivina;
+    int intentos;
     double puntos = 1000.0; // Puntos iniciales
 
     for (int intentos = 1; intentos <= numero_tentativas; intentos++) {
