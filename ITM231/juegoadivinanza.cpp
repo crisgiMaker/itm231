@@ -68,9 +68,10 @@ int main() {
 
     cout << "Finalizó el juego" << endl;
     cout.precision(2);
+    if (adivina==NUMERO_SECRETO){
     cout << fixed;
     cout << "Su puntuación fue de " << puntos << " puntos" << endl;
-
+    }
     return 0;
 }
 
