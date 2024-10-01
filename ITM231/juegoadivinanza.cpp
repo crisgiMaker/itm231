@@ -14,7 +14,9 @@ int main() {
 	cout <<endl;
     cout << "Escoja el nivel de dificultad" << endl;
     cout << "Facil (F), Medio (M) o Dificil (D)" << endl;
-
+    cout <<endl;
+	cout <<endl;
+	
     char dificultad;
     cin >> dificultad;
 
@@ -44,6 +46,7 @@ int main() {
         cout << "Tentativa " << intentos << endl;
         cout << "¿Cuál es el número? ";
         cin >> adivina;
+        cout <<endl;
         double puntos_perdidos = abs(adivina - NUMERO_SECRETO) / 2.0;
         puntos -= puntos_perdidos;
 
@@ -51,31 +54,37 @@ int main() {
 
         if (adivina == NUMERO_SECRETO) {
             cout << "¡Felicitaciones! Adivinaste el número secreto." << endl;
+            cout <<endl;
             break;
         }
 
         if (adivina > NUMERO_SECRETO) {
             cout << "El número ingresado es mayor que el número secreto." << endl;
+            cout <<endl;
         }
 
         if (adivina < NUMERO_SECRETO) {
             cout << "El número ingresado es menor que el número secreto." << endl;
+            cout <<endl;
         }
 
         if (intentos == numero_tentativas) {
             cout << "Se acabaron las tentativas. El número secreto era: " << NUMERO_SECRETO << endl;
+            cout <<endl;
         }
     }
 
     cout << "lo siento!!!... Finalizó el juego" << endl;
     cout.precision(2);
     if (adivina==NUMERO_SECRETO){
-    cout << fixed;
-    cout << "Su puntuación fue de " << puntos << " puntos" << endl;
-    cout << "adivinaste en:  " << intentos << endl;
+        cout <<endl;
+        cout << fixed;
+        cout << "Su puntuación fue de " << puntos << " puntos" << endl;
+        cout << "adivinaste en:  " << intentos << endl;
     }
     return 0;
 }
+
 
 /*int numero_secreto = 42;
 cout <<"El numero secreto es ..." <<numero_secreto <<  " No lo diga a nadie! "<<endl;
@@ -97,4 +106,3 @@ if (adivina == numero_secreto){
 	cout <<"El numero ingresado es menor que el numero secreto"<<endl;
 	}
 }*/
-
