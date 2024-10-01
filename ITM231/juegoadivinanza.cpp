@@ -4,9 +4,9 @@
 using namespace std;
 
 int main() {
-	cout <<"*********************************************************************"<<endl;
-	cout <<"*                Bienvenido al Juego de la Adivinanza               *"<<endl;
-	cout <<"*********************************************************************"<<endl;
+	cout <<"******************************************************************************"<<endl;
+	cout <<"*                    Bienvenido al Juego de la Adivinanza                    *"<<endl;
+	cout <<"*****************************************************************************"<<endl;
     cout <<endl;
 	cout <<endl;
     cout << "Ingrese un numero en el rango: 1 a 100*" << endl;
